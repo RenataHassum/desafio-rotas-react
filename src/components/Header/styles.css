@@ -1,0 +1,25 @@
+.navcontainer {
+  background-color: var(--bg-header);
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+}
+
+.navitems {
+  margin-left: 20px;
+  color: var(--color-header);
+  font-size: 16px;
+}
+
+.nav-active {
+  font-weight: 700;
+}
