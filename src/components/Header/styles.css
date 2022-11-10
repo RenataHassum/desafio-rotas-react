@@ -23,3 +23,7 @@
 .nav-active {
   font-weight: 700;
 }
+
+.navbar a:hover {
+  color: var(--color-header);
+}

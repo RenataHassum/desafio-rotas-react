@@ -1,7 +1,11 @@
+import { Outlet } from 'react-router-dom';
+import HeaderProduct from './HeaderProduct';
+
 export default function Product() {
   return (
     <div className="container sub-title">
-      <h2>Produtos</h2>
+      <HeaderProduct />
+      <Outlet />
     </div>
   );
 }
