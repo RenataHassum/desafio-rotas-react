@@ -1,7 +1,7 @@
-export default function Initial() {
+export default function Product() {
   return (
     <div className="container sub-title">
-      <h2>Bem vindos!</h2>
+      <h2>Produtos</h2>
     </div>
   );
 }

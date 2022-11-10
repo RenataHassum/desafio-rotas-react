@@ -4,14 +4,22 @@ import './styles.css';
 
 export default function Header() {
   return (
-    <header className='navcontainer'>
+    <header className="navcontainer">
       <nav className="navbar container">
         <div>
-          <NavLink to="/" className='navitems'>Início</NavLink>
-          <NavLink to="/" className='navitems'>Produtos</NavLink>
-          <NavLink to="/" className='navitems'>Sobre nós</NavLink>
+          <NavLink to="/" className="navitems">
+            Início
+          </NavLink>
+          <NavLink to="/products" className="navitems">
+            Produtos
+          </NavLink>
+          <NavLink to="/about" className="navitems">
+            Sobre nós
+          </NavLink>
         </div>
-        <img src={homeImg} alt="Home" />
+        <NavLink to="/">
+          <img src={homeImg} alt="Home" />
+        </NavLink>
       </nav>
     </header>
   );

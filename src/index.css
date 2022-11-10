@@ -18,9 +18,9 @@
 a,
 a:hover {
   text-decoration: none;
-  color: unset;
+  color: var(--color-header);
 }
-
+  
 html,
 body {
   font-family: 'Inter', sans-serif;
@@ -32,4 +32,10 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.sub-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 20px;
 }
